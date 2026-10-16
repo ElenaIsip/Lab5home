@@ -1,26 +1,30 @@
-#Домашняя работа Попова Елена бТИИ-262
+# Домашняя работа Попова Елена бТИИ-262
 # Задание для работы
 # Написать программу вычисления значения функции двух переменных. Результат проверить на контрольном примере.
 
-#<img width="859" height="82" alt="{087FD1FE-51B7-4F24-91C6-BC0B69B720EC}" src="https://github.com/user-attachments/assets/30cdc246-4238-426f-bfd4-9dc38e42613d" />
+# <img width="859" height="82" alt="{087FD1FE-51B7-4F24-91C6-BC0B69B720EC}" src="https://github.com/user-attachments/assets/30cdc246-4238-426f-bfd4-9dc38e42613d" />
 
 
-#Блок схема программы
+# Блок схема программы
 
 
 <img width="370" height="525" alt="{D64F7444-AF0C-4C10-B191-B64B9232B955}" src="https://github.com/user-attachments/assets/faccbd0e-d2bd-497c-b091-08218382947b" />
 
 
 
-#Реализация программы 
+# Реализация программы 
 
-#define _USE_MATH_DEFINES
+# Директивы препроцессора
 
-#include <stdio.h>
+define _USE_MATH_DEFINES
 
-#include <locale.h>
+include <stdio.h>
 
-#include <math.h>
+include <locale.h>
+
+include <math.h>
+
+# Код
 
 int main(void)
 {
